@@ -1,0 +1,9 @@
+.containerForSubjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    .box{
+       padding: 20px;
+    }
+}
