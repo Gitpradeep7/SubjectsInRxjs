@@ -1,6 +1,9 @@
-<p>two works!</p>
-<h1>1 behaviour Subject :::{{data}}</h1>
-<h1>2 subject::: {{subjectData}}</h1>
-<h2>3 replayData:::{{replayData}}</h2>
+<h1>Component 2</h1>
+<h2 class="bsub">1 behaviour Subject</h2> 
+<h5 class="bsub">{{data}}</h5>
+<h2 class="sub">2 subject </h2>
+<h5 class="sub">{{subjectData}}</h5>
+<h2 class="rsub">3 replayData</h2>
+<h5 class="rsub">{{replayData}}</h5>
 <input placeholder="Subject" type="text" #messageTwo>
 <button (click)="addSubject(messageTwo.value)">Add</button>
